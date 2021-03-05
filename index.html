@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--====== Meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="Santanu Panda" />
+    <meta name="description" content="Santanu's Portfolio" />
+    <meta name="keywords" content="Santanu,software engineer, portfolio, shaantalk, unix, cheatsheet, unix cheatsheet" />
+    <meta name="Resource-type" content="Document" />
+
+    <!--====== Title ======-->
+    <title>Unix Cheatsheet</title>
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css" />
+
+    <!--====== Line Icons css ======-->
+    <!-- <link rel="stylesheet" href="static/css/LineIcons.css"> -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css" />
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="static/css/magnific-popup.css" />
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="static/css/default.css" />
+
+    <!--====== Background Animation css ======-->
+    <link rel="stylesheet" href="static/css/backgroundAnimation.css" />
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="static/css/style.css" />
+
+    <!--====== RESIZE JS ======-->
+    <script src="static/js/resize.js"></script>
+</head>
+
+<body>
+    <!--====== NAVIGATION STARTS ======-->
+    <div class="fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #754ef9;">
+            <a href="#" class="navbar-brand">
+                <p style="color: #ffffff;font-size: large;font-weight: bold;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    Unix Cheatsheet
+                </p>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#FileSystem" class="nav-item nav-link active">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            File System
+                        </p>
+                    </a>
+                    <a href="#System" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            System
+                        </p>
+                    </a>
+                    <a href="#ProcessManagement" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            Process Management
+                        </p>
+                    </a>
+                    <a href="#Permissions" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            Permissions
+                        </p>
+                    </a>
+                    <a href="#Networking" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            Networking
+                        </p>
+                    </a>
+                    <a href="#Searching" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            Searching
+                        </p>
+                    </a>
+
+                    <a href="#Compression" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            Compression
+                        </p>
+                    </a>
+
+                    <a href="#Searching" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            Searching
+                        </p>
+                    </a>
+                    <a href="#WhoAmI" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            Who Am I
+                        </p>
+                    </a>
+                    <a href="#contact" class="nav-item nav-link">
+                        <p style="color: #ffffff;font-weight: 100;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            Contact
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--====== NAVIGATION ENDS ======-->
+
+
+    <div class="d-flex pt-50">
+        <div class="stars container">
+            <div class="small"></div>
+            <div class="medium"></div>
+            <div class="big"></div>
+
+            <div class="container-fluid pt-10" id="allTerms"></div>
+
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </div>
+
+
+    <!--====== WHO AM I PART START ======-->
+
+    <section id="WhoAmI" class="contact-area pt-20 pb-20 gray-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center pb-25">
+                        <h2 class="title">Hi There!</h2>
+                    </div>
+                    <!-- section title -->
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- new code  -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-8 col-sm-10">
+                        <div class="contact-box text-center mt-30">
+                            <div class="contact-content">
+                                <dl class="row">
+                                    <dt class="col-sm-3">Who am I?</dt>
+                                    <dd class="col-sm-9">
+                                        I'm Santanu Panda. I am a software Engineer working for <a href="https://www.lowes.co.in/" target="blank">Lowe's Services India Pvt Ltd</a>.
+                                    </dd>
+                                    <dt class="col-sm-3 text-truncate">
+                      What i do ?
+                    </dt>
+                                    <dd class="col-sm-9">
+                                        I love to build stuff and share it with the world. I specialize in Website building and UI technologies.
+                                    </dd>
+                                </dl>
+                                <div class="row justify-content-center align-items-center pt-20">
+                                    <p style="font-size: large;font-weight: bold;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                        I hope you like my work. Feel free to reach out to me for anything.
+                                    </p>
+                                </div>
+                                <div class="row justify-content-center align-items-center pt-10">
+                                    <a class="main-btn" href="https://shaantalk.github.io/" target="blank">Visit My profile</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- new code  -->
+    </section>
+
+    <!--====== WHO AM I PART ENDS ======-->
+
+    <!--====== CONTACT PART START ======-->
+
+    <section
+      id="contact"
+      class="wholePagesection contact-area pt-30 pb-30 gray-bg"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center pb-25">
+              <h2 class="title">Please Get In Touch</h2>
+            </div>
+            <!-- section title -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="contact-box text-center mt-30">
+              <div class="contact-icon">
+                <i class="lni-map-marker"></i>
+              </div>
+              <div class="contact-content">
+                <h6 class="contact-title">Address</h6>
+                <p>3/3 Secondary Road, Durgapur, West Bengal</p>
+              </div>
+            </div>
+            <!-- contact box -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="contact-box text-center mt-30">
+              <div class="contact-icon">
+                <i class="lni-phone"></i>
+              </div>
+              <div class="contact-content">
+                <h6 class="contact-title">Phone</h6>
+                <p>+91 7866040088</p>
+                <p>+91 7980642266</p>
+              </div>
+            </div>
+            <!-- contact box -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="contact-box text-center mt-30">
+              <div class="contact-icon">
+                <i class="lni-envelope"></i>
+              </div>
+              <div class="contact-content">
+                <h6 class="contact-title">Email</h6>
+                <p>shaantalk@gmail.com</p>
+                <p style="color: white">FillerFiller</p>
+              </div>
+            </div>
+            <!-- contact box -->
+          </div>
+        </div>
+        <!-- row -->
+
+        <div class="col-lg-12 footer-widget  mt-30 pt-10 pb-30">
+          <div class="footer-content text-center">
+            <p class="mt-">Let's talk. You can contact me in these websites.</p>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/talk2Shaan" target="_blank"
+                  ><i class="lni-facebook-filled"></i
+                ></a>
+                                    </li>
+                                    <li></li>
+                                    <li>
+                                        <a href="https://twitter.com/shaantalk" target="_blank"><i class="lni-twitter-original"></i
+                ></a>
+                                    </li>
+                                    <li></li>
+                                    <li>
+                                        <a href="https://github.com/shaantalk" target="_blank"><i class="lni-github-original"></i
+                ></a>
+                                    </li>
+                                    <li></li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/shaantalk/" target="_blank"><i class="lni-linkedin-original"></i
+                ></a>
+                                    </li>
+                                    <li></li>
+                                    <li>
+                                        <a href="https://wa.me/917866040088" target="_blank"><i class="lni-whatsapp"></i
+                ></a>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+
+    <!--====== jquery js ======-->
+    <script src="static/js/modernizr-3.6.0.min.js"></script>
+    <script src="static/js/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Parallax js ======-->
+    <script src="static/js/parallax.min.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="static/js/waypoints.min.js"></script>
+    <script src="static/js/jquery.counterup.min.js"></script>
+
+    <!--====== Appear js ======-->
+    <script src="static/js/jquery.appear.min.js"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="static/js/scrolling-nav.js"></script>
+    <script src="static/js/jquery.easing.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="static/js/main.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="static/js/fitty.min.js"></script>
+    <script defer>
+        fitty("h1", {
+            minSize: 20,
+            maxSize: 64
+        });
+    </script>
+
+    <script src="static/js/data.js"></script>
+</body>
+
+</html>
